@@ -104,12 +104,12 @@ content:
         title: Hyperledger Besu
         link: github.com/hyperledger/besu
         description: |
-          Kilka [commitów](https://github.com/hyperledger/besu/commits?author=kziemianek) do najpopularniejszego javowego klienta ethereum w starej specyfikacji.
+          Kilka [commitów](https://github.com/hyperledger/besu/commits?author=kziemianek) do najpopularniejszego javowego klienta ethereum w specyfikacji 1.
       - layout: top-middle
         title: Gitcoin
         link: github.com/gitcoinco/web   
         description: |
-          Trochę [zmian i fixów](https://github.com/gitcoinco/web/commits?author=kziemianek), troche eth zarobionych. 
+          Trochę [zmian i fixów](https://github.com/gitcoinco/web/commits?author=kziemianek). 
 
   - title: Moje projekty # Title for the section
     layout: list # Type of content section (list/text)
