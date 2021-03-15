@@ -54,7 +54,6 @@ about_content: | # this will include new lines to allow paragraphs
   - Sprign Data
   - Spring Cloud
   - Angular
-  - NgRx
   - Kafka
   - Kafka Streams
   - Elasticsearch
