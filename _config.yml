@@ -47,11 +47,11 @@ linkedin_username: kziemianek
 about_title: About me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Kasper and I'm a software developer. I'm mainly focused on blockchain space.
+  My name is Kasper and I'm a software developer. I'm mainly focused on blockchain space. Recently I'm mainly focused in Rust and I develop my pet projects in this langauge for 2 years.
 
   During my carrer I had opportunity to use following technologies:
   - Spring Web
-  - Sprign Data
+  - Spring Data
   - Spring Cloud
   - Angular
   - Kafka
@@ -70,7 +70,7 @@ content:
         sub_title: Blockchain developer
         caption: March 2021 - Now
         description: | # this will include new lines to allow paragraphs
-            Exchange Coin developer. Customized and shipped to production white label cryptocurrency exchange. Decentralized exchange research.
+            Customized and shipped to production white label cryptocurrency exchange. Researched ways for creating decentralized exchange. Fixed few problems in ExchangeCoin ecosystem software.
       - layout: left
         title: Trinite
         link: https://www.trinite.io/
@@ -85,7 +85,7 @@ content:
         sub_title: Software developer
         caption: March 2011 - June 2019
         description: |
-            Leaded projects for one of the biggest telecommunication operator in Poland. Analysed bussines requirements. Estimated projects and change requests.
+            Leaded projects for one of the biggest telecommunication operators in Poland. Analysed bussines requirements. Estimated projects and change requests.
       - layout: left
         title: Prointegra
         sub_title: Software developer
@@ -126,6 +126,14 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           Rust library for integration with WebOs tv.
+      - layout: top-middle
+        title: tsp-solver
+        link: github.com/kziemianek/tsp-solver
+        # link_text: Project Website
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Rust application for finding optimal solution in traveling salesman problem.          
       - layout: top-middle
         title: Mars Explorer
         link: github.com/kziemianek/mars-explorer
