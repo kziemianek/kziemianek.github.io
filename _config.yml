@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Kasper Ziemianek
-title: Programista
+title: Software developer
 email: kasper.ziemianek@gmail.com
 
 # Dark Mode (true/false/never)
@@ -44,12 +44,12 @@ linkedin_username: kziemianek
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: O mnie
+about_title: About me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Cześć, mam na imię Kasper i jestem programistą z 10 letnim doświadczeniem. Głównie zajmuję się tworzeniem i rozwojem aplikacji webowych opartych o stack JVM i JS. Backendowo dobrze radzę sobie z Javą i Springiem a frontendowo z Typescriptem i Angularem.
+  My name is Kasper and I'm a software developer. I'm mainly focused on blockchain space.
 
-  Przez ten czas miałem styczność z:
+  During my carrer I had opportunity to use following technologies:
   - Spring Web
   - Sprign Data
   - Spring Cloud
@@ -57,44 +57,49 @@ about_content: | # this will include new lines to allow paragraphs
   - Kafka
   - Kafka Streams
   - Elasticsearch
-  - Oracle
 
 content:
 
-  - title: Doświadczenie # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Pragmatic Coders
+        link: https://www.pragmaticcoders.com/
+        # link_text: boringcompany.com
+        sub_title: Blockchain developer
+        caption: March 2021 - Now
+        description: | # this will include new lines to allow paragraphs
+            Exchange Coin developer. Customized and shipped to production white label cryptocurrency exchange. Decentralized exchange research.
       - layout: left
         title: Trinite
         link: https://www.trinite.io/
         # link_text: boringcompany.com
-        sub_title: Programista
-        caption: Czerwiec 2019 - Obecnie        
+        sub_title: Software developer
+        caption: June 2019 - February 2021
         description: | # this will include new lines to allow paragraphs
-            Praca dla startupu. Research i ocena możliwości wykorzystania technologii Blockchain w projekcie. Realizacja Proof of Concept.
-
+            Created proof of concept of utilizng blockchain technology in reatil sale for customer from USA. 
       - layout: left
         title: Horus
         link: https://horus.pl/pl
-        sub_title: Programista
-        caption: Marzec 2011 - Czerwiec 2019
+        sub_title: Software developer
+        caption: March 2011 - June 2019
         description: |
-            Praca dla klienta korporacyjnego. Tworzenie projektów od 0 do produkcji. Nadzorowanie pracy zespołu składającego się z kilku programistów. Analiza wymagań biznesowych. 
-            
+            Leaded projects for one of the biggest telecommunication operator in Poland. Analysed bussines requirements. Estimated projects and change requests.
       - layout: left
         title: Prointegra
-        sub_title: Programista
-        caption: Sierpień 2011 - Luty 2012
+        sub_title: Software developer
+        caption: August 2011 - February 2012
 
-  - title: Edukacja # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Polsko Japońska Wyższa Szkoła Technik Komputerowych w Warszawie
+        title: Polish-Japanese Academy of Information Technology
         caption: 2009 - 2013
-        sub_title: Informatyka, Inżynierskie        
+        sub_title: Computer Science, Bachelor's degree
         description: | # this will include new lines to allow paragraphs
-          Specjalizacja Inteligentne Systemy Przetwarzania Danych, temat pracy inżynierskej: Analiza porównawcza algorytmów przeglądania przestrzeni rozwiązań dla problemu wędrującego złodzieja.
+          Intelligent data processing systems specialisation.
 
   - title: Open source
     layout: list
@@ -103,16 +108,24 @@ content:
         title: Hyperledger Besu
         link: github.com/hyperledger/besu
         description: |
-          Kilka [commitów](https://github.com/hyperledger/besu/commits?author=kziemianek) do najpopularniejszego javowego klienta ethereum w specyfikacji 1.
+          [Contributed](https://github.com/hyperledger/besu/commits?author=kziemianek) to java ethereum implementation client.
       - layout: top-middle
         title: Gitcoin
         link: github.com/gitcoinco/web   
         description: |
-          Trochę [zmian i fixów](https://github.com/gitcoinco/web/commits?author=kziemianek). 
+          [Contributed](https://github.com/gitcoinco/web/commits?author=kziemianek) to one of the biggest bounty networks. 
 
-  - title: Moje projekty # Title for the section
+  - title: Pet projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: LG WebOs Client
+        link: github.com/kziemianek/lg-webos-client
+        # link_text: Project Website
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Rust library for integration with WebOs tv.
       - layout: top-middle
         title: Mars Explorer
         link: github.com/kziemianek/mars-explorer
@@ -120,12 +133,12 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          Przeglądarka zdjęć z marsa robionych przez łaziki opportunity i curiosity. Trochę nodejs i angulara z pwa na frontendzie.
+          Browser of Mars Rover's photos.
       - layout: top-middle
         title: Civic Budget Voting
         link: github.com/kziemianek/civicbudgetvoting
         description: |
-          DApp do głosowania na projekty realizowane w ramach budżetów obywatelskich.                 
+          DApp allowing users to vote on civic budget projects.
 
 
 # Footer
