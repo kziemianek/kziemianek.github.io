@@ -59,7 +59,42 @@ about_content: | # this will include new lines to allow paragraphs
   - Elasticsearch
 
   I've contributed to several open source projects like Hyperledger Besu and Gitcoin.
+
 content:
+  - title: Rust Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: LG WebOs Client
+        link: github.com/kziemianek/lg-webos-client
+        # link_text: Project Website
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Simple LG webOS client written purely in Rust. Inspired by lgtv.js. Async HTTP client supporting various methods to control the TV.
+      - layout: top-middle
+        title: tsp-solver
+        link: github.com/kziemianek/tsp-solver
+        # link_text: Project Website
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          CLI application for finding the optimal solution in traveling salesman problem. Metaheuristic methods supported: hill-climbing, simulated annealing, and random search. Solvers can be run in parallel utilizing all CPU cores for multiple runs as it's one of the methods for finding optimal solutions because solvers often get stuck in local optima.
+
+  - title: Open source
+    layout: list
+    content:
+      - layout: top-middle
+        title: Hyperledger Besu
+        link: github.com/hyperledger/besu
+        description: |
+          [Contributed](https://github.com/hyperledger/besu/commits?author=kziemianek) to ethereum client implemented in java.
+      - layout: top-middle
+        title: Gitcoin
+        link: github.com/gitcoinco/web   
+        description: |
+          [Contributed](https://github.com/gitcoinco/web/commits?author=kziemianek) to one of the biggest bounty networks. 
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -101,39 +136,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Intelligent data processing systems specialization.
 
-  - title: Open source
-    layout: list
-    content:
-      - layout: top-middle
-        title: Hyperledger Besu
-        link: github.com/hyperledger/besu
-        description: |
-          [Contributed](https://github.com/hyperledger/besu/commits?author=kziemianek) to ethereum client implemented in java.
-      - layout: top-middle
-        title: Gitcoin
-        link: github.com/gitcoinco/web   
-        description: |
-          [Contributed](https://github.com/gitcoinco/web/commits?author=kziemianek) to one of the biggest bounty networks. 
-
   - title: Pet projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: LG WebOs Client
-        link: github.com/kziemianek/lg-webos-client
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Rust library for integration with WebOs tv.
-      - layout: top-middle
-        title: tsp-solver
-        link: github.com/kziemianek/tsp-solver
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Rust application for finding optimal solution in traveling salesman problem.          
+    content:          
       - layout: top-middle
         title: Mars Explorer
         link: github.com/kziemianek/mars-explorer
