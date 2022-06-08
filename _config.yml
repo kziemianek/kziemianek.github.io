@@ -81,6 +81,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           CLI application for finding the optimal solution in traveling salesman problem. Metaheuristic methods supported: hill-climbing, simulated annealing, and random search. Solvers can be run in parallel utilizing all CPU cores for multiple runs as it's one of the methods for finding optimal solutions because solvers often get stuck in local optima.
 
+      - layout: top-middle
+        title: proc-macro-workshop
+        link: https://github.com/kziemianek/proc-macro-workshop
+        # link_text: Project Website
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Mastering Rust procedural macros.
+
   - title: Open source
     layout: list
     content:
