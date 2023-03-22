@@ -18,7 +18,7 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"></head>
-<body class="dark"><div class="container header-container">
+<body class=""><div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>Kasper Ziemianek</h1>
@@ -45,12 +45,13 @@
   <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
         <span class="profile-img" style="background-image: url(/images/profile.jpg)"></span>
       </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <p>My name is Kasper and I’m a software developer. I’m mainly focused on the blockchain space since 2017. Recently I’m gaining fluency in Rust programming language and Substrate framework.</p>
+      <p>My name is Kasper and I’m a software engineer with over 12 years of experience. I’m focused on blockchain technology since 2017. I’ve been working with Rust language for about 3 years. Before that, I’ve spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular.</p>
 
 <p>During my carrer I had opportunity to use following technologies:</p>
 <ul>
   <li>Rust</li>
   <li>Substrate</li>
+  <li>ink!</li>
   <li>Tokio</li>
   <li>Spring Web</li>
   <li>Spring Data</li>
@@ -61,7 +62,7 @@
   <li>Elasticsearch</li>
 </ul>
 
-<p>I’ve contributed to several open source projects like Hyperledger Besu and Gitcoin.</p>
+<p>I’ve contributed to several open source projects like Substrate, ink!, Astar, Hyperledger Besu and Gitcoin.</p>
 
     </div>
   </div>
@@ -72,36 +73,36 @@
             
   <div class="row clearfix layout layout-top-middle border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="zk-snark-substrate-pallet">zk-SNARK Substrate Pallet</h4>
+<a href="//github.com/kziemianek/zk-snarks-with-substrate" target="_blank" class="link">github.com/kziemianek/zk-snarks-with-substrate</a><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Substrate pallet for groth16 zk-SNARK method proof verification. Implementation included: snarkjs verification key and proof deserialization, verification key and proof validation, runtime proof verification.</p>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-top-middle border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="high-availability-substrate-validator-setup">High availability substrate validator setup</h4>
+<a href="https://github.com/kziemianek/substrate-raft" target="_blank" class="link">https://github.com/kziemianek/substrate-raft</a><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Substrate modification to allow plugging in decision making logic to determine whenever node is allowed to actively take part in on-chain activity as a validator. It allows validators to run backup nodes with same authority keys and let them take action if the leader node has stopped working.</p>
+
+    </div>
+  </div>
+
+  <div class="row clearfix layout layout-top-middle border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="lg-webos-client">LG WebOs Client</h4>
 <a href="//github.com/kziemianek/lg-webos-client" target="_blank" class="link">github.com/kziemianek/lg-webos-client</a><p class="no-print aditional-links">
         
       </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Simple LG webOS client written purely in Rust. Inspired by lgtv.js. Async HTTP client supporting various methods to control the TV.</p>
-
-    </div>
-  </div>
-
-  <div class="row clearfix layout layout-top-middle border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="tsp-solver">tsp-solver</h4>
-<a href="//github.com/kziemianek/tsp-solver" target="_blank" class="link">github.com/kziemianek/tsp-solver</a><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>CLI application for finding the optimal solution in traveling salesman problem. Metaheuristic methods supported: hill-climbing, simulated annealing, and random search. Solvers can be run in parallel utilizing all CPU cores for multiple runs as it’s one of the methods for finding optimal solutions because solvers often get stuck in local optima.</p>
-
-    </div>
-  </div>
-
-  <div class="row clearfix layout layout-top-middle border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="proc-macro-workshop">proc-macro-workshop</h4>
-<a href="https://github.com/kziemianek/proc-macro-workshop" target="_blank" class="link">https://github.com/kziemianek/proc-macro-workshop</a><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Mastering Rust procedural macros.</p>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>LG webOS client written purely in Rust. Inspired by lgtv.js. Async client supporting various methods to control the TV.</p>
 
     </div>
   </div>
@@ -112,6 +113,18 @@
           <div class="container list-container">
             <h3 id="open-source">Open source</h3>
             
+  <div class="row clearfix layout layout-top-middle border-no">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="substrate">Substrate</h4>
+<a href="//github.com/paritytech/substrate" target="_blank" class="link">github.com/paritytech/substrate</a><p class="no-print aditional-links">
+        
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p><a href="https://github.com/paritytech/substrate/commits?author=kziemianek">Contributed</a> to Substrate - framework for building appication specific blockchains</p>
+
+    </div>
+  </div>
+
   <div class="row clearfix layout layout-top-middle border-no">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="hyperledger-besu">Hyperledger Besu</h4>
@@ -221,42 +234,14 @@
 
           </div>
         
-          <div class="container list-container">
-            <h3 id="pet-projects">Pet projects</h3>
-            
-  <div class="row clearfix layout layout-top-middle border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="mars-explorer">Mars Explorer</h4>
-<a href="//github.com/kziemianek/mars-explorer" target="_blank" class="link">github.com/kziemianek/mars-explorer</a><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>Browser of Mars Rover’s photos.</p>
-
-    </div>
-  </div>
-
-  <div class="row clearfix layout layout-top-middle border-no">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="civic-budget-voting">Civic Budget Voting</h4>
-<a href="//github.com/kziemianek/civicbudgetvoting" target="_blank" class="link">github.com/kziemianek/civicbudgetvoting</a><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p>DApp allowing users to vote on civic budget projects.</p>
-
-    </div>
-  </div>
-
-
-          </div>
-        
       </div>
   </main><div class="container footer-container">
   <p>
     Kasper Ziemianek -
     <a href="mailto:kasper.ziemianek@gmail.com" target="_blank">kasper.ziemianek@gmail.com</a></p>
 </div>
+    <script src="/assets/js/index.js"></script>
+  
 </body>
 
 </html>

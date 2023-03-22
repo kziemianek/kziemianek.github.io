@@ -11,47 +11,22 @@ title: Software engineer
 email: kasper.ziemianek@gmail.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-#twitter_username: facespics
 github_username:  kziemianek
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
 linkedin_username: kziemianek
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_title: About me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Kasper and I'm a software developer. I'm mainly focused on the blockchain space since 2017. Recently I'm gaining fluency in Rust programming language and Substrate framework.
+  My name is Kasper and I'm a software engineer with over 12 years of experience. I'm focused on blockchain technology since 2017. I've been working with Rust language for about 3 years. Before that, I've spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular.
 
   During my carrer I had opportunity to use following technologies:
   - Rust
   - Substrate
+  - ink!
   - Tokio
   - Spring Web
   - Spring Data
@@ -61,41 +36,36 @@ about_content: | # this will include new lines to allow paragraphs
   - Kafka Streams
   - Elasticsearch
 
-  I've contributed to several open source projects like Hyperledger Besu and Gitcoin.
+  I've contributed to several open source projects like Substrate, ink!, Astar, Hyperledger Besu and Gitcoin.
 
 content:
   - title: Rust Experience
     layout: list
     content:
       - layout: top-middle
+        title: zk-SNARK Substrate Pallet
+        link: github.com/kziemianek/zk-snarks-with-substrate
+        description: |
+          Substrate pallet for groth16 zk-SNARK method proof verification. Implementation included: snarkjs verification key and proof deserialization, verification key and proof validation, runtime proof verification.
+      - layout: top-middle
+        title: High availability substrate validator setup
+        link: https://github.com/kziemianek/substrate-raft
+        description: |
+         Substrate modification to allow plugging in decision making logic to determine whenever node is allowed to actively take part in on-chain activity as a validator. It allows validators to run backup nodes with same authority keys and let them take action if the leader node has stopped working.
+      - layout: top-middle
         title: LG WebOs Client
         link: github.com/kziemianek/lg-webos-client
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Simple LG webOS client written purely in Rust. Inspired by lgtv.js. Async HTTP client supporting various methods to control the TV.
-      - layout: top-middle
-        title: tsp-solver
-        link: github.com/kziemianek/tsp-solver
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          CLI application for finding the optimal solution in traveling salesman problem. Metaheuristic methods supported: hill-climbing, simulated annealing, and random search. Solvers can be run in parallel utilizing all CPU cores for multiple runs as it's one of the methods for finding optimal solutions because solvers often get stuck in local optima.
-
-      - layout: top-middle
-        title: proc-macro-workshop
-        link: https://github.com/kziemianek/proc-macro-workshop
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Mastering Rust procedural macros.
-
+        description: | 
+          LG webOS client written purely in Rust. Inspired by lgtv.js. Async client supporting various methods to control the TV.
+  
   - title: Open source
     layout: list
     content:
+      - layout: top-middle
+        title: Substrate
+        link: github.com/paritytech/substrate
+        description: |
+          [Contributed](https://github.com/paritytech/substrate/commits?author=kziemianek) to Substrate - framework for building appication specific blockchains
       - layout: top-middle
         title: Hyperledger Besu
         link: github.com/hyperledger/besu
@@ -107,31 +77,29 @@ content:
         description: |
           [Contributed](https://github.com/gitcoinco/web/commits?author=kziemianek) to one of the biggest bounty networks. 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Bright Inventions
         link: https://brightinventions.pl
         sub_title: Rust engineer
         caption: September 2022 - Now
-        description: | # this will include new lines to allow paragraphs
+        description: |
           As a rust engineer I'm involved in full Web3 Foundation grants lifecycle from application to delivery. Up to now I've been involved in two grants. First one is called Raft Validators Setup and is about preparing Substrate to accept permissions from outside actors, so there can be more than one node operating on behalf of single keypair. The second is about building Substrate pallet for verifying zksnark proofs (groth16).
       - layout: left
         title: Pragmatic Coders
         link: https://www.pragmaticcoders.com/
-        # link_text: boringcompany.com
         sub_title: Blockchain developer
         caption: March 2021 - August 2022
-        description: | # this will include new lines to allow paragraphs
+        description: |
             As a blockchain developer, my role was to build both blockchain solutions and products that integrate with blockchains. During this period I contributed to ExchangeCoin ecosystem with various fixes. Most of my time I spent customizing centralized cryptocurrency exchange. I took care of whitelabel solution and customized it to met business needs. My responsibilities also included reasearch and developent of ordebook based decetralized cryptocurrency exchange.
       - layout: left
         title: Trinite
         link: https://www.trinite.io/
-        # link_text: boringcompany.com
         sub_title: Software developer
         caption: June 2019 - February 2021
-        description: | # this will include new lines to allow paragraphs
+        description: |
             As a software developer, I was creating proof of concept for utilizing blockchain technology in retail sales in the cannabis industry. Due to the characteristics of sold gods transparency and traceability were required. The system was designed to communicate mostly in an asynchronous manner with CQRS and event sourcing. The crucial part of the system was built as a smart contract on the EOS blockchain. My daily tasks included developing and testing new features, research and brainstorming. 
       - layout: left
         title: Horus
@@ -145,39 +113,18 @@ content:
         sub_title: Software developer
         caption: August 2011 - February 2012
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Polish-Japanese Academy of Information Technology
         caption: 2009 - 2013
         sub_title: Computer Science, Bachelor's degree
-        description: | # this will include new lines to allow paragraphs
-          Intelligent data processing systems specialization.
-
-  - title: Pet projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:          
-      - layout: top-middle
-        title: Mars Explorer
-        link: github.com/kziemianek/mars-explorer
-        # link_text: Project Website
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Browser of Mars Rover's photos.
-      - layout: top-middle
-        title: Civic Budget Voting
-        link: github.com/kziemianek/civicbudgetvoting
         description: |
-          DApp allowing users to vote on civic budget projects.
-
+          Intelligent data processing systems specialization.
 
 # Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
-
-# Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
