@@ -21,9 +21,9 @@ linkedin_username: kziemianek
 about_title: About me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Kasper and I'm a software engineer with over 12 years of experience. I'm focused on blockchain technology since 2017. I've been working with Rust language for about 3 years. Before that, I've spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular.
+  My name is Kasper and I'm a software engineer with over 12 years of experience. I have been focused on blockchain technologies since 2017. I've been working with the Rust language for about 3 years. Before that, I've spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular.
 
-  During my carrer I had opportunity to use following technologies:
+  During my career I had opportunity to use following technologies:
   - Rust
   - Substrate
   - ink!
@@ -65,7 +65,7 @@ content:
         title: Substrate
         link: github.com/paritytech/substrate
         description: |
-          [Contributed](https://github.com/paritytech/substrate/commits?author=kziemianek) to Substrate - framework for building appication specific blockchains
+          [Contributed](https://github.com/paritytech/substrate/commits?author=kziemianek) to Substrate - framework for building application specific blockchains
       - layout: top-middle
         title: Hyperledger Besu
         link: github.com/hyperledger/besu
@@ -93,21 +93,21 @@ content:
         sub_title: Blockchain developer
         caption: March 2021 - August 2022
         description: |
-            As a blockchain developer, my role was to build both blockchain solutions and products that integrate with blockchains. During this period I contributed to ExchangeCoin ecosystem with various fixes. Most of my time I spent customizing centralized cryptocurrency exchange. I took care of whitelabel solution and customized it to met business needs. My responsibilities also included reasearch and developent of ordebook based decetralized cryptocurrency exchange.
+            As a blockchain developer, my role was to build both blockchain solutions and products that integrate with blockchains. During this period I contributed to ExchangeCoin ecosystem with various fixes. Most of my time I spent customizing centralized cryptocurrency exchange. I took care of whitelabel solution and customized it to met business needs. My responsibilities also included reasearch and development of ordebook based decetralized cryptocurrency exchange.
       - layout: left
         title: Trinite
         link: https://www.trinite.io/
         sub_title: Software developer
         caption: June 2019 - February 2021
         description: |
-            As a software developer, I was creating proof of concept for utilizing blockchain technology in retail sales in the cannabis industry. Due to the characteristics of sold gods transparency and traceability were required. The system was designed to communicate mostly in an asynchronous manner with CQRS and event sourcing. The crucial part of the system was built as a smart contract on the EOS blockchain. My daily tasks included developing and testing new features, research and brainstorming. 
+            As a software developer, I was creating proof of concept for utilizing blockchain technology in retail sales in the cannabis industry. Due to the characteristics of sold goods transparency and traceability were required. The system was designed to communicate mostly in an asynchronous manner with CQRS and event sourcing. The crucial part of the system was built as a smart contract on the EOS blockchain. My daily tasks included developing and testing new features, research and brainstorming. 
       - layout: left
         title: Horus
         link: https://horus.pl/pl
         sub_title: Software developer
         caption: March 2011 - June 2019
         description: |
-            As a software developer, my role was to develop, test, and deliver new features to the existing system and build systems from the scratch. My daily tasks included also business requirements analysys, cost and risk estimation, mentoring. During this period I built systems that consumed messages in both synchronous and asynchronous manner. I created REST and SOAP endpoints with backward compatibility in mind. Communication involved also integration with RabbitMQ as message broker. Delivered solutions digitalized point of sales  and call centers sales processes. Time for call center contact was dropped from minutes to seconds.
+            As a software developer, my role was to develop, test, and deliver new features to the existing system and build systems from scratch. My daily tasks included also business requirements analysis, cost and risk estimation, mentoring. During this period I built systems that consumed messages in both synchronous and asynchronous manner. I created REST and SOAP endpoints with backward compatibility in mind. Communication involved also integration with RabbitMQ as message broker. Delivered solutions digitalized point of sales  and call centers sales processes. Time for call center contact was dropped from minutes to seconds.
       - layout: left
         title: Prointegra
         sub_title: Software developer
