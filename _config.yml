@@ -81,10 +81,24 @@ content:
     layout: list
     content:
       - layout: left
+        title: Heima
+        link: https://heima.network
+        sub_title: Rust engineer
+        caption: Now
+        description: |
+          As a Rust engineer, I'm primarily focused on designing and developing a TEE-based (Intel SGX) Layer 1 sidechain and offchain worker infrastructure. My work extends the capabilities of the Heima parachain to support advanced TEE-driven features, including:
+
+          - Intent-based processing system for secure, autonomous transaction execution
+          - Non-custodial modular account abstraction (ERC-4337) for user-centric wallet experiences
+          - HEI bridge solution, spanning a Substrate pallet, EVM smart contracts, and offchain relayer architecture
+          - Custom offchain execution layer leveraging EVM precompiles for TEE-enhanced computation
+          - TEE + MPC key storage for secure distributed key management
+          - Integration with HyperCore and HyperEVM, enabling DeFi interoperability on Hyperliquid
+      - layout: left
         title: Bright Inventions
         link: https://brightinventions.pl
         sub_title: Rust engineer
-        caption: September 2022 - Now
+        caption: September 2022 - 2024
         description: |
           As a rust engineer I'm involved in full Web3 Foundation grants lifecycle from application to delivery. Up to now I've been involved in two grants. First one is called Raft Validators Setup and is about preparing Substrate to accept permissions from outside actors, so there can be more than one node operating on behalf of single keypair. The second is about building Substrate pallet for verifying zksnark proofs (groth16).
       - layout: left
