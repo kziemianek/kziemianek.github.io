@@ -21,11 +21,14 @@ linkedin_username: kziemianek
 about_title: About me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Kasper and I'm a software engineer with over 14 years of experience. I have been focused on blockchain technologies since 2017. I've been working with the Rust language for about 5 years. Before that, I've spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular.
+  My name is Kasper and I'm a software engineer with over 14 years of experience. I have been focused on blockchain technologies since 2017. I've been working with the Rust language for about 5 years. Before that, I've spent 7 years working as full stack developer creating products with Java/Spring and Typescript/Angular. Recently i'm focused on agentic communication and x402 protocol.
 
   During my career I had opportunity to use following technologies:
   - Rust
+  - Solidity
+  - EVM based systems
   - Substrate
+  - Intel TEE
   - ink!
   - Tokio
   - Spring Web
@@ -36,7 +39,7 @@ about_content: | # this will include new lines to allow paragraphs
   - Kafka Streams
   - Elasticsearch
 
-  I've contributed to several open source projects like Substrate, ink!, Astar, Hyperledger Besu and Gitcoin.
+  I've contributed to several open source projects like Substrate, ink!, Astar, Hyperledger Besu, Gitcoin, x402 sdk.
 
 content:
   - title: Rust Experience
