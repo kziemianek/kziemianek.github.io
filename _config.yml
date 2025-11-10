@@ -43,6 +43,11 @@ content:
     layout: list
     content:
       - layout: top-middle
+        title: Heima TEE-based Infrastructure
+        link: github.com/litentry/heima
+        description: |
+          Contributed to Heima's TEE-based Layer 1 sidechain infrastructure, focusing on account abstraction (ERC-4337) implementation and cross-chain bridge solutions. Key contributions include: HEI bridge spanning Ethereum Mainnet, Heima parachain, and Binance Smart Chain with EVM smart contracts, Substrate pallets, and a TEE-secured offchain relayer running in Gramine; intent-based processing system for secure, autonomous transaction execution; versioned AA smart contracts with hierarchical access control; dynamic gas price estimation and optimization; CLI tooling for development and testing.
+      - layout: top-middle
         title: zk-SNARK Substrate Pallet
         link: github.com/kziemianek/zk-snarks-with-substrate
         description: |
